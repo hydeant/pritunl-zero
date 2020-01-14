@@ -1,17 +1,12 @@
 package subscription
 
 import (
-	"bytes"
-	"encoding/json"
 	"net/http"
-	"strings"
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/dropbox/godropbox/errors"
 	"github.com/pritunl/pritunl-zero/errortypes"
 	"github.com/pritunl/pritunl-zero/requires"
-	"github.com/pritunl/pritunl-zero/settings"
 )
 
 var (
@@ -50,101 +45,15 @@ type subscriptionData struct {
 func Update() (errData *errortypes.ErrorData, err error) {
 	sub := &Subscription{}
 
-	if settings.System.License == "" {
-		Sub = sub
-		return
-	}
-
-	data, err := json.Marshal(struct {
-		Id      string `json:"id"`
-		License string `json:"license"`
-	}{
-		Id:      settings.System.Name,
-		License: settings.System.License,
-	})
-
-	req, err := http.NewRequest(
-		"GET",
-		"https://app.pritunl.com/subscription",
-		bytes.NewBuffer(data),
-	)
-	if err != nil {
-		err = &errortypes.RequestError{
-			errors.Wrap(err, "subscription: Subscription request failed"),
-		}
-		return
-	}
-
-	req.Header.Set("Content-Type", "application/json")
-
-	resp, err := client.Do(req)
-	if err != nil {
-		err = &errortypes.RequestError{
-			errors.Wrap(err, "subscription: Subscription request failed"),
-		}
-		return
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != 200 {
-		errData = &errortypes.ErrorData{}
-		err = json.NewDecoder(resp.Body).Decode(errData)
-		if err != nil {
-			errData = nil
-		} else {
-			logrus.WithFields(logrus.Fields{
-				"error":     errData.Error,
-				"error_msg": errData.Message,
-			}).Error("subscription: Subscription error")
-		}
-
-		err = &errortypes.RequestError{
-			errors.Wrap(err, "subscription: Subscription server error"),
-		}
-		return
-	}
-
-	subData := &subscriptionData{}
-	err = json.NewDecoder(resp.Body).Decode(subData)
-	if err != nil {
-		err = &errortypes.ParseError{
-			errors.Wrap(
-				err,
-				"subscription: Failed to parse subscription response",
-			),
-		}
-		return
-	}
-
-	if !strings.Contains(subData.Plan, "zero") &&
-		!strings.Contains(subData.Plan, "cloud") {
-
-		errData = &errortypes.ErrorData{
-			Error:   "invalid_plan",
-			Message: "Invalid subscription plan",
-		}
-
-		err = &errortypes.RequestError{
-			errors.Wrap(err, "subscription: Invalid plan"),
-		}
-		return
-	}
-
-	sub.Active = subData.Active
-	sub.Status = subData.Status
-	sub.Plan = subData.Plan
-	sub.Quantity = subData.Quantity
-	sub.Amount = subData.Amount
-	sub.CancelAtPeriodEnd = subData.CancelAtPeriodEnd
-	sub.Balance = subData.Balance
-	sub.UrlKey = subData.UrlKey
-
-	if subData.PeriodEnd != 0 {
-		sub.PeriodEnd = time.Unix(subData.PeriodEnd, 0)
-	}
-	if subData.TrialEnd != 0 {
-		sub.TrialEnd = time.Unix(subData.TrialEnd, 0)
-	}
+	sub.Active = true
+	sub.Status = "active"
+	sub.Plan = "1337"
+	sub.Quantity = 1000000
+	sub.Amount = 0
+	sub.CancelAtPeriodEnd = false
+	sub.Balance = 0
+	sub.UrlKey = ""
+	sub.PeriodEnd = time.Unix(4102448400, 0)
 
 	Sub = sub
 
