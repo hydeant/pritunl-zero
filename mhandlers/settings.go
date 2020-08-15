@@ -4,12 +4,12 @@ import (
 	"github.com/dropbox/godropbox/container/set"
 	"github.com/gin-gonic/gin"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/demo"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/secondary"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/demo"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/secondary"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 type settingsData struct {

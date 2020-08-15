@@ -14,13 +14,13 @@ import (
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
 	"github.com/pritunl/mongo-go-driver/mongo/options"
-	"github.com/pritunl/pritunl-zero/certificate"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/requires"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/certificate"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/requires"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 var (

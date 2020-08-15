@@ -12,10 +12,10 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/dropbox/godropbox/container/set"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/certificate"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/certificate"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/settings"
 	"golang.org/x/crypto/acme"
 )
 

@@ -15,14 +15,14 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/authorizer"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/logger"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/search"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/authorizer"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/logger"
+	"github.com/hydeant/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/search"
+	"github.com/hydeant/pritunl-zero/service"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 type webIsolated struct {

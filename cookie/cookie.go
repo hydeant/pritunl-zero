@@ -8,11 +8,11 @@ import (
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/requires"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/requires"
+	"github.com/hydeant/pritunl-zero/session"
+	"github.com/hydeant/pritunl-zero/settings"
 )
 
 var (

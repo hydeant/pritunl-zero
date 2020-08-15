@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/log"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/log"
 )
 
 var (

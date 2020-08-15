@@ -10,8 +10,8 @@ import (
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
 	"github.com/pritunl/mongo-go-driver/mongo"
 	"github.com/pritunl/mongo-go-driver/mongo/options"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/database"
 )
 
 type Listener struct {

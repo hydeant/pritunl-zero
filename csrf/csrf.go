@@ -3,8 +3,8 @@ package csrf
 import (
 	"time"
 
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 type CsrfToken struct {

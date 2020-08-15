@@ -6,13 +6,13 @@ import (
 
 	"github.com/dropbox/godropbox/container/set"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/policy"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/hydeant/pritunl-zero/audit"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/policy"
+	"github.com/hydeant/pritunl-zero/service"
+	"github.com/hydeant/pritunl-zero/user"
 )
 
 func ValidateAdmin(db *database.Database, usr *user.User,

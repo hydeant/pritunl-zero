@@ -11,12 +11,12 @@ import (
 	"github.com/dropbox/godropbox/errors"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/pritunl/pritunl-zero/authority"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/demo"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/authority"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/demo"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/node"
 )
 
 var (

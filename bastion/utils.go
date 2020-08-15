@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/errortypes"
 
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 func DockerMatchContainer(a, b string) bool {

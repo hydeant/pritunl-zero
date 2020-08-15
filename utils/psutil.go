@@ -4,7 +4,7 @@ import (
 	"runtime"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/errortypes"
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/mem"
 )

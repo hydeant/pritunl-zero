@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 func WriteError(w http.ResponseWriter, r *http.Request, code int, err error) {

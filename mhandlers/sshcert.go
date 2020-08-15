@@ -4,10 +4,10 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/demo"
-	"github.com/pritunl/pritunl-zero/ssh"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/demo"
+	"github.com/hydeant/pritunl-zero/ssh"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 type sshcertsData struct {

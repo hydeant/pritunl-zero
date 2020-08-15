@@ -5,14 +5,14 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/agent"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/log"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/ssh"
-	"github.com/pritunl/pritunl-zero/subscription"
+	"github.com/hydeant/pritunl-zero/agent"
+	"github.com/hydeant/pritunl-zero/audit"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/log"
+	"github.com/hydeant/pritunl-zero/session"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/ssh"
+	"github.com/hydeant/pritunl-zero/subscription"
 )
 
 func IsDemo() bool {

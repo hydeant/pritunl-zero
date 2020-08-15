@@ -2,9 +2,9 @@ package task
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/acme"
-	"github.com/pritunl/pritunl-zero/certificate"
-	"github.com/pritunl/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/acme"
+	"github.com/hydeant/pritunl-zero/certificate"
+	"github.com/hydeant/pritunl-zero/database"
 )
 
 var acmeRenew = &Task{

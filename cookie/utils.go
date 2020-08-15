@@ -7,10 +7,10 @@ import (
 	"github.com/dropbox/godropbox/errors"
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/service"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 func GetAdmin(w http.ResponseWriter, r *http.Request) (

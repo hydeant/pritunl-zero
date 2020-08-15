@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/middlewear"
-	"github.com/pritunl/pritunl-zero/proxy"
-	"github.com/pritunl/pritunl-zero/requires"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/static"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/config"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/middlewear"
+	"github.com/hydeant/pritunl-zero/proxy"
+	"github.com/hydeant/pritunl-zero/requires"
+	"github.com/hydeant/pritunl-zero/service"
+	"github.com/hydeant/pritunl-zero/static"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 var (

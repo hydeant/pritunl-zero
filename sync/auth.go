@@ -6,9 +6,9 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/mongo/options"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/user"
 )
 
 func authSync() (err error) {

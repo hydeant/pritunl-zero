@@ -9,12 +9,12 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/dropbox/godropbox/errors"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/router"
-	"github.com/pritunl/pritunl-zero/sync"
+	"github.com/hydeant/pritunl-zero/config"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/router"
+	"github.com/hydeant/pritunl-zero/sync"
 )
 
 func Node() (err error) {

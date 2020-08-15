@@ -7,10 +7,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/pritunl/mongo-go-driver/bson"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/demo"
-	"github.com/pritunl/pritunl-zero/log"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/demo"
+	"github.com/hydeant/pritunl-zero/log"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 type logsData struct {

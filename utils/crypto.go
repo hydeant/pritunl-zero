@@ -9,7 +9,7 @@ import (
 	"regexp"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/errortypes"
 )
 
 var (

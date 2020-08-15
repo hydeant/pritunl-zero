@@ -6,11 +6,11 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/authorizer"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/static"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/authorizer"
+	"github.com/hydeant/pritunl-zero/config"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/static"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 func staticPath(c *gin.Context, pth string) {

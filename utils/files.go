@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/errortypes"
 )
 
 func Exists(pth string) (exists bool, err error) {

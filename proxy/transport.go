@@ -3,7 +3,7 @@ package proxy
 import (
 	"net/http"
 
-	"github.com/pritunl/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/node"
 )
 
 type TransportFix struct {

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/requires"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/requires"
 )
 
 var (

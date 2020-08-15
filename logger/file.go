@@ -5,8 +5,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/errortypes"
 )
 
 type fileSender struct{}

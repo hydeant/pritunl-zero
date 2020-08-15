@@ -3,7 +3,7 @@ package auth
 import (
 	"sort"
 
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/settings"
 )
 
 type StateProvider struct {

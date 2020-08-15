@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/requires"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/requires"
 )
 
 var (

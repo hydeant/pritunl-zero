@@ -25,7 +25,7 @@ var (
 		"/usr/share/pritunl-zero/www",
 		path.Join(
 			build.Default.GOPATH,
-			"src/github.com/pritunl/pritunl-zero/www/dist",
+			"src/github.com/hydeant/pritunl-zero/www/dist",
 		),
 	}
 	StaticTestingRoot = []string{
@@ -33,7 +33,7 @@ var (
 		"/usr/share/pritunl-zero/www",
 		path.Join(
 			build.Default.GOPATH,
-			"src/github.com/pritunl/pritunl-zero/www",
+			"src/github.com/hydeant/pritunl-zero/www",
 		),
 	}
 )

@@ -3,7 +3,7 @@ package certificate
 import (
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/database"
 )
 
 func Get(db *database.Database, certId primitive.ObjectID) (

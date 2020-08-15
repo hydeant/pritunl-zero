@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/demo"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/demo"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/session"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 func sessionsGet(c *gin.Context) {

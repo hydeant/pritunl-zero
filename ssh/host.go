@@ -8,11 +8,11 @@ import (
 
 	"github.com/dropbox/godropbox/errors"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/agent"
-	"github.com/pritunl/pritunl-zero/authority"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/agent"
+	"github.com/hydeant/pritunl-zero/authority"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/settings"
 )
 
 func NewHostCertificate(db *database.Database, hostname string, port int,

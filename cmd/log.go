@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/log"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/log"
 )
 
 func ClearLogs() (err error) {

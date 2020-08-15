@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/geo"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/geo"
+	"github.com/hydeant/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/settings"
 	"github.com/ua-parser/uap-go/uaparser"
 )
 

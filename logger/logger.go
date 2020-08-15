@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/requires"
+	"github.com/hydeant/pritunl-zero/constants"
+	"github.com/hydeant/pritunl-zero/requires"
 )
 
 var (

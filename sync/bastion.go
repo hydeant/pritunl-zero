@@ -6,12 +6,12 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/dropbox/godropbox/container/set"
-	"github.com/pritunl/pritunl-zero/authority"
-	"github.com/pritunl/pritunl-zero/bastion"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/authority"
+	"github.com/hydeant/pritunl-zero/bastion"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 func bastionEnabled() bool {

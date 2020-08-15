@@ -5,17 +5,17 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/authorizer"
-	"github.com/pritunl/pritunl-zero/challenge"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/device"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/secondary"
-	"github.com/pritunl/pritunl-zero/ssh"
-	"github.com/pritunl/pritunl-zero/u2flib"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/audit"
+	"github.com/hydeant/pritunl-zero/authorizer"
+	"github.com/hydeant/pritunl-zero/challenge"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/device"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/event"
+	"github.com/hydeant/pritunl-zero/secondary"
+	"github.com/hydeant/pritunl-zero/ssh"
+	"github.com/hydeant/pritunl-zero/u2flib"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 var (

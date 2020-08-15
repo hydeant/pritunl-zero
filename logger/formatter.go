@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/colorize"
+	"github.com/hydeant/pritunl-zero/colorize"
 )
 
 var (

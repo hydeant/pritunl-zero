@@ -4,12 +4,12 @@ import (
 	"net/http"
 
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/cookie"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/signature"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/hydeant/pritunl-zero/cookie"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/service"
+	"github.com/hydeant/pritunl-zero/session"
+	"github.com/hydeant/pritunl-zero/signature"
+	"github.com/hydeant/pritunl-zero/user"
 )
 
 type Authorizer struct {

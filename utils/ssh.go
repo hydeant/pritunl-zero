@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/errortypes"
 	"golang.org/x/crypto/ssh"
 )
 

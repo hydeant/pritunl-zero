@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/agent"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/rokey"
-	"github.com/pritunl/pritunl-zero/user"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/hydeant/pritunl-zero/agent"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/rokey"
+	"github.com/hydeant/pritunl-zero/user"
+	"github.com/hydeant/pritunl-zero/utils"
 )
 
 type Session struct {

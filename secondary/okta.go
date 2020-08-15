@@ -12,12 +12,12 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/hydeant/pritunl-zero/audit"
+	"github.com/hydeant/pritunl-zero/database"
+	"github.com/hydeant/pritunl-zero/errortypes"
+	"github.com/hydeant/pritunl-zero/node"
+	"github.com/hydeant/pritunl-zero/settings"
+	"github.com/hydeant/pritunl-zero/user"
 )
 
 var (
